@@ -1,39 +1,152 @@
-<h1 align="center">Hi 👋, I'm Hridoy</h1>
-<h3 align="center">A passionate frontend developer from bangladesh</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rewme&label=Profile%20views&color=0e75b6&style=flat" alt="rewme" /> </p>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
+        }
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=rewme" alt="rewme" /></a> </p>
+        .about-me {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
 
-- 🔭 I’m currently working on [eDownload](https://e-download.vercel.app/)
+        .container {
+            background-color: #fff;
+            max-width: 1000px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
 
-- 🌱 I’m currently learning **React**
+        .container:hover {
+            transform: translateY(-10px);
+        }
 
-- 👯 I’m looking to collaborate on [Code Zenith](https://code-zenith.vercel.app/)
+        .header {
+            background: linear-gradient(135deg, #0072ff, #00c6ff);
+            padding: 30px;
+            color: #fff;
+            text-align: center;
+        }
 
-- 🤝 I’m looking for help with [Code Zenith](https://code-zenith.vercel.app/)
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
 
-- 👨‍💻 All of my projects are available at [https://hri-doy.vercel.app/](https://hri-doy.vercel.app/)
+        .header p {
+            font-size: 1.2rem;
+            font-style: italic;
+        }
 
-- 📝 I regularly write articles on [https://bdnoobraytop.blogspot.com/](https://bdnoobraytop.blogspot.com/)
+        .profile {
+            display: flex;
+            align-items: center;
+            padding: 30px;
+        }
 
-- 💬 Ask me about **sketchware**
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 4px solid #0072ff;
+            margin-right: 30px;
+        }
 
-- 📫 How to reach me **dev.hridoy2002@gmail.com**
+        .info {
+            max-width: 500px;
+        }
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://fb.com/bdnoobra2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="bdnoobra2" height="30" width="40" /></a>
-<a href="https://instagram.com/hridoy.java" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="hridoy.java" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/bdnoobra" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="bdnoobra" height="30" width="40" /></a>
-</p>
+        .info h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            color: #0072ff;
+        }
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://www.framer.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" alt="framer" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nativescript.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/nativescript.svg" alt="nativescript" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a> <a href="https://zapier.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/zapier/zapier-icon.svg" alt="zapier" width="40" height="40"/> </a> </p>
+        .info p {
+            font-size: 1rem;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
 
-<h3 align="left">Support:</h3>
-<p><a href="https://www.buymeacoffee.com/bdnoobra"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="bdnoobra" /></a></p><br><br>
+        .social-icons {
+            margin-top: 20px;
+        }
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rewme&show_icons=true&locale=en&layout=compact" alt="rewme" /></p>
+        .social-icons a {
+            text-decoration: none;
+            color: #0072ff;
+            margin-right: 15px;
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=rewme&show_icons=true&locale=en" alt="rewme" /></p>
+        .social-icons a:hover {
+            color: #00c6ff;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .profile {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .profile img {
+                margin: 0 auto 20px;
+            }
+
+            .info {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="about-me">
+        <div class="container">
+            <div class="header">
+                <h1>Hello, I'm [Your Name]</h1>
+                <p>A passionate developer and problem-solver</p>
+            </div>
+            <div class="profile">
+                <img src="https://via.placeholder.com/150" alt="Your profile picture">
+                <div class="info">
+                    <h2>About Me</h2>
+                    <p>I'm a software developer with experience in building dynamic web applications. I enjoy learning new technologies and creating projects that solve real-world problems. My areas of expertise include full-stack development, APIs, and cloud solutions.</p>
+                    <p>In my free time, I like to contribute to open-source projects, explore new frameworks, and collaborate with other developers.</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
