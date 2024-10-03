@@ -36,32 +36,36 @@
 </p>
 
 <h2 align="left">⚡️ Connect with me</h2>
-<p align="left">
-  <a href="https://www.facebook.com/hridoy.py" target="blank">
-    <img align="center" src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="hridoy.py"/>
-  </a>
-  <a href="https://www.instagram.com/hridoy.xqc" target="blank">
-    <img align="center" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="hridoy.xqc"/>
-  </a>
-  <a href="https://www.youtube.com/@bdnoobra" target="blank">
-    <img align="center" src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="@bdnoobra"/>
-  </a>
-</p>
+  <table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+      <th>Discord</th>
+      <th>Telegram</th>
+      <th>Instagram</th>
+      <th>YouTube</th>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/6b381b30-861d-4a3c-859a-367da4956347" alt="Facebook QR" width="150"><br>
+        <a href="https://discord.gg/yfBx5GU9Xr">Eliana Support Server</a>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/0bd6fcf3-332b-400b-8edf-0aa613c2d7bc" alt="Telegram QR" width="150"><br>
+        <a href="https://t.me/BD_NOOBRA">BD_NOOBRA</a>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/727d205c-3f31-494b-ba2e-a594122d2b20" alt="Twitter QR" width="150"><br>
+        <a href="https://www.instagram.com/hridoycode/">HridoyCode</a>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/f9dedbbb-606c-4ab5-b67b-73ab2f640ebb" alt="YouTube QR" width="150"><br>
+        <a href="https://www.youtube.com/@hridoy-code">Hridoy Code</a>
+      </td>
+    </tr>
+  </table>
 
-<h2 align="left">📊 GitHub Stats</h2>
-<p align="left">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Hridoy&show_icons=true&locale=en&layout=compact&theme=radical" alt="Hridoy's Top Languages" />
-</p>
+  <h3>Email: <a href="mailto:dev.hridoy2002@gmail.com">dev.hridoy2002@gmail.com</a></h3></p>
 
-<p align="left">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Hridoy&show_icons=true&locale=en&theme=radical" alt="Hridoy's GitHub Stats" />
-</p>
-
-<p align="left">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Hridoy&theme=radical" alt="Hridoy's GitHub Streak" />
-</p>
-
-<h2 align="left">🎯 Goals for 2024</h2>
+<h2 align="left">🎯 Goals for 2025</h2>
 <ul>
   <li>Master a new programming language</li>
   <li>Contribute to open-source projects</li>
