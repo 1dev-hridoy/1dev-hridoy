@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/Z6DtgQR/fecffca8da882dd9cff8017441057984.gif"  width="1280" height="350">
+<img src="https://i.ibb.co/Z6DtgQR/fecffca8da882dd9cff8017441057984.gif"  width="1280" height="270">
 
 <h3 align="center">A passionate frontend developer from Bangladesh </h3>
 - 🔭 I’m currently working on **ucocn**
