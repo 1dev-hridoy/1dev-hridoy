@@ -1,29 +1,11 @@
 {
+  "project_name": "Nexalo",
+  "name": "Hridoy",
   "version": "7ZHV92MN4L",
-  "project": {
-    "name": "Nexalo",
-    "repository": {
-      "url": "https://github.com/1dev-hridoy/nexalo",
-      "type": "GitHub"
-    },
-    "owner": {
-      "name": "Hridoy",
-      "socials": {
-        "facebook": {
-          "link": "https://facebook.com/hridoy.py",
-          "platform": "Facebook"
-        },
-        "instagram": {
-          "link": "https://instagram.com/hridoy.py",
-          "platform": "Instagram"
-        }
-      }
-    },
-    "resources": {
-      "commandStore": {
-        "url": "https://cmd.nexalo.xyz/",
-        "description": "Access all Nexalo commands here"
-      }
-    }
-  }
+  "repo": "https://github.com/1dev-hridoy/nexalo",
+  "socials": {
+    "facebook": "https://facebook.com/hridoy.py",
+    "instagram": "https://instagram.com/hridoy.py"
+  },
+  "cmdstore": "https://cmd.nexalo.xyz/"
 }
