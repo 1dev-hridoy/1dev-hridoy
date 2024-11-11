@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co.com/5W5jYGb/Node-1.jpg">
+<img src="https://github.com/user-attachments/assets/2e64d73a-8234-4024-be23-8ab9e7c68f8e">
 
 <h3 align="center">A passionate frontend developer from Bangladesh </h3>
 - 🔭 I’m currently working on **ucocn**
