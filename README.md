@@ -13,7 +13,6 @@
 - 📫 How to reach me **dev.hridoy2002@gmail.com**
 
 
-[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/skills?languages=js,python,php&frameworks=react,express,django&tools=git,docker,vercel,heroku&theme=1dev-hridoy)](https://github.com/Jurredr/github-widgetbox)
 
 
 
@@ -43,7 +42,4 @@
       </td>
     </tr>
   </table>
-
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=1dev-hridoy&" alt="1dev-hridoy" /></p>
 
