@@ -1,4 +1,4 @@
-[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=1dev-hridoy&data=followers,repositories,stars,commits&theme=1dev-hridoy)](https://github.com/Jurredr/github-widgetbox)
+[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=1dev-hridoy&data=followers,repositories,stars,commits&theme=metropolis)](https://github.com/Jurredr/github-widgetbox)
 
 ### 🌱 Currently Learning  
 I’m currently expanding my skills in **Python** and exploring new technologies.
