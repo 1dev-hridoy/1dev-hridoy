@@ -1,4 +1,4 @@
-[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=1dev-hridoy&data=followers,repositories,stars,commits&theme=metropolis)](https://hridoy.top)
+<img src="https://readme-img.onrender.com/api/banner?username=1dev-hridoy&template=banner1&bg=dark&font=modern" alt="1dev-hridoy's GitHub Stats" />
 
 ### 🌱 Currently Learning  
 I’m currently expanding my skills in **Python** and exploring new technologies.
