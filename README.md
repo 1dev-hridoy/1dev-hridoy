@@ -9,3 +9,12 @@ I’m currently expanding my skills in **Python** and exploring new technologies
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,php,nodejs,mysql,mongodb,firebase,jquery,bootstrap,tailwind,vscode,notion" alt="Skill Icons">
 </p>
+
+---
+
+### ☕ Buy Me a Cha  
+<p align="center">
+  <a href="https://bit.ly/buy-cha" target="_blank">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Cha-%F0%9F%8D%BA-orange?style=for-the-badge" alt="Buy Me a Cha">
+  </a>
+</p>
