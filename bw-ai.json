@@ -1,14 +1,16 @@
 [
   {
-    "id": 1,
-    "name": "Wordpress",
-    "price": 999.99,
-    "description": "High-performance laptop with 16GB RAM and 512GB SSD"
+    "title": "BW AI Bot - Blogger Version",
+    "version": "Blogger",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1JyNCuMuqAzHQXMVnvvdL5oIMQHXXsuGJhIk1lJuT-3ujSx4ECFqZYyOd57buw8Q2DJz7NbJQaejw9zx8TOGW5agewd0I7k7DWMsUCZqYnN4OH_4dQkwceFtXlQcqpBs9SumZFgz4VqXINaWRS8nqLoTmMuuHdoFWGslpg47aiXV4slQRy4eBhUu8fk0/s1920/Untitled%20image%20%2816%29.jpeg",
+    "price": 40.99,
+    "summary": "Automated AI-powered content writer and poster for Blogger. Generates titles, descriptions, tags, categories, and thumbnails. Posts daily based on your set schedule—no manual work needed."
   },
   {
-    "id": 2,
-    "name": "Smartphone",
-    "price": 699.99,
-    "description": "Latest model with 128GB storage and 48MP camera"
+    "title": "BW AI Bot - WordPress Version",
+    "version": "WordPress",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTvCEelaiI3Pe9NpMIFv3jOmAK39qWyUPX66b87lvpV8h2DJzuPev3-_HiClwgejzaJpOkMbhi0a0AkLAXz5PCbVKBhV7F9cHhf4sMYrbNGoScrMVcPq-Fu1V3G_MqL3_5EkjJI3Q9ECm3DiZZdf_omq5OENx6TnnvuXOrHvmaRO8aWTm3wL5tCCS8TdA/s1920/Untitled%20image%20(12).jpeg",
+    "price": 49.99,
+    "summary": "AI-driven content automation for WordPress. Creates complete posts with SEO-friendly titles, descriptions, tags, categories, and thumbnails. Runs daily posting automatically without admin effort."
   }
 ]
