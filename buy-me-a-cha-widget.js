@@ -2,7 +2,7 @@
          
             const currentScript = document.currentScript;
             const username = currentScript ? currentScript.getAttribute('data-username') : 'hridoy';
-            const redirectUrl = `https://buy-me-a-cha.vercel.app/${username}`;
+            const redirectUrl = `https://www.buymeacha.com/${username}`;
             const iconUrl = "https://res.cloudinary.com/dastfgrsc/image/upload/w_128,h_128,c_limit/v1768453496/cha-cup_jyj56e.png";
 
             
