@@ -1,80 +1,130 @@
 :root {
-    --cha-bg: #FF5F1F; /* Primary Brand Color */
-    --sticker-border: 3px solid #ffffff;
-    --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    --transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-/* Base Button Style */
+
+
 .cha-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 12px 24px;
-    border-radius: 12px;
+    display: inline-block;
     text-decoration: none;
-    font-family: 'Inter', system-ui, sans-serif;
-    font-weight: 700;
-    font-size: 1.05rem;
-    color: #ffffff;
     position: relative;
-    border: var(--sticker-border);
     cursor: pointer;
     transition: var(--transition);
-    
- 
-    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.15);
-  
-    transform: rotate(-2deg);
-    
-
-    background-image: linear-gradient(135deg, rgba(255,255,255,0.15) 0%, transparent 100%);
-}
 
 
-.cha-btn::before {
-    content: "";
-    width: 1.6em;
-    height: 1.6em;
-    margin-right: 12px;
-    
-    background: url('https://res.cloudinary.com/dastfgrsc/image/upload/w_128,h_128,c_limit/v1768453496/cha-cup_jyj56e.png') no-repeat center;
-    background-size: contain;
-    display: inline-block;
-    flex-shrink: 0; 
-    
-  
-    filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px -1px 0 white);
-    transition: var(--transition);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    width: 178px;
+    height: 50px;
+
+    padding: 0;
+    font-size: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+
+
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+
+
+    transform: scale(1);
 }
 
 
 .cha-btn:hover {
-  
-    transform: translate(3px, 3px) rotate(-0.5deg);
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
 }
 
-.cha-btn:hover::before {
-    transform: scale(1.15) rotate(5deg);
-}
 
 .cha-btn:active {
-    transform: translate(6px, 6px) rotate(0deg);
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    transform: scale(0.96);
+    transition: transform 0.05s cubic-bezier(0.4, 0, 0.6, 1);
 }
 
-/* --- THEMES --- */
+
+.cha-btn:active::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0) 70%);
+    transform: translate(-50%, -50%) scale(0);
+    animation: click-ripple 0.3s ease-out;
+    border-radius: 12px;
+    pointer-events: none;
+}
+
+@keyframes click-ripple {
+    0% {
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1.2);
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
 
 
 .theme-aurora {
-    background-color: var(--cha-bg); /* Fallback */
-    background-image: linear-gradient(135deg, #FF5E5B 0%, #FF5F1F 100%) !important;
+    background-image: url('https://s3.buymeacha.com/cdn/assets/buy-me-a-cha-1.png') !important;
 }
 
 .theme-ocean {
-    background-image: linear-gradient(135deg, #1DB954 0%, #0D8C3E 100%) !important;
+    background-image: url('https://s3.buymeacha.com/cdn/assets/buy-me-a-cha-2.png') !important;
 }
 
 .theme-neon {
-    background-image: linear-gradient(135deg, #C4A0E7 0%, #9B7EBD 100%) !important;
+    background-image: url('https://s3.buymeacha.com/cdn/assets/buy-me-a-cha-3.png') !important;
+}
+
+
+.cha-btn-small {
+    width: 142px;
+    height: 40px;
+}
+
+
+
+.cha-btn-xs {
+    width: 107px;
+    height: 30px;
+}
+
+
+
+
+
+@media (max-width: 480px) {
+    .cha-btn {
+        width: 142px;
+        height: 40px;
+    }
+}
+
+
+.cha-btn {
+    background-size: contain;
+    background-position: center;
+}
+
+
+.cha-btn-group {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center;
 }
