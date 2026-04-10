@@ -15,7 +15,6 @@ I’m currently expanding my skills in **Python** and exploring new technologies
 
 ### ☕ Buy Me a Cha  
 <p align="center">
-  <a href="https://www.buymeacha.com/hridoy" target="_blank">
-    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Cha-%F0%9F%8D%BA-orange?style=for-the-badge" alt="Buy Me a Cha">
-  </a>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/1dev-hridoy/1dev-hridoy/buy-me-a-cha-style.css">
+<a href="https://chabondhu.com/hridoy" target="_blank" class="cha-btn theme-aurora">BuyMeACha</a>
 </p>
