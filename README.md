@@ -14,7 +14,5 @@ I’m currently expanding my skills in **Python** and exploring new technologies
 ---
 
 ### ☕ Buy Me a Cha  
-<p align="center">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/1dev-hridoy/1dev-hridoy/buy-me-a-cha-style.css">
-<a href="https://chabondhu.com/hridoy" target="_blank" class="cha-btn theme-aurora">BuyMeACha</a>
-</p>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/1dev-hridoy/1dev-hridoy/buy-me-a-cha-style.css">
+<a href="https://www.buymeacha.com/hridoy" target="_blank" class="cha-btn theme-aurora">BuyMeACha</a>
